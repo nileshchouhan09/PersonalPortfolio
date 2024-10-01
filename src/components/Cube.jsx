@@ -32,7 +32,7 @@ const Cube = ({ ...props }) => {
   });
 
   return (
-    <Float floatIntensity={2} position={[1,0.3,4]}>
+    <group position={[1,0.3,4]}>
       <group  rotation={[2.6, 0.8, -1.8]} scale={0.64} dispose={null} {...props}>
         <mesh
           ref={cubeRef}
@@ -44,7 +44,7 @@ const Cube = ({ ...props }) => {
           <meshMatcapMaterial matcap={texture} toneMapped={false} />
         </mesh>
       </group>
-    </Float>
+    </group>
   );
 };
 

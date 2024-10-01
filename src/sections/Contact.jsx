@@ -6,7 +6,8 @@ import { useMediaQuery } from "react-responsive";
 const Contact = () => {
   const formRef = useRef();
 
-  const isDesktop = useMediaQuery({ minWidth: 1025 });
+  
+  const isMobile = useMediaQuery({ maxWidth: 768 });
   const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 });
  
 
@@ -51,7 +52,7 @@ const Contact = () => {
     <section className="c-space my-20" id="contact">
       <p className="head-text"> Contact Me </p>
 
-      <div className="relative min-h-screen flex items-center justify-center flex-col p-10 m-5 bg-[url('/assets/terminal.png')] bg-cover">
+      <div className={` ${isMobile ? "bg-none flex justify-center items-center": isTablet ? "bg-none flex justify-center items-center" : "relative min-h-screen flex items-center justify-center flex-col p-10 m-5 bg-[url('/assets/terminal.png')]  bg-cover " }`}>
        
 
         <div className="contact-container">
