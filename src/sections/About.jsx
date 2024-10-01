@@ -43,13 +43,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p>
-                "I am a MERN developer with expertise in full-stack frameworks
-                like Next.js and proficiency in TypeScript. My experience
-                encompasses building dynamic and scalable web applications using
-                MongoDB, Express.js, React, and Node.js. Currently, I am
-                expanding my skill set by learning Three.js, aiming to enhance
-                my ability to create immersive 3D experiences in web
-                applications."
+              "I am a MERN developer with expertise in full-stack frameworks like Next.js and proficiency in TypeScript. My experience encompasses building dynamic and scalable web applications using MongoDB, Express.js, React, and Node.js. In addition, I am skilled in Java and React Native, enabling me to develop cross-platform mobile applications. Currently, I am expanding my skill set by learning Three.js, aiming to enhance my ability to create immersive 3D experiences in web applications."
               </p>
             </div>
           </div>
